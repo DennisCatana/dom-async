@@ -10,41 +10,59 @@
 /* Modificar el estilo */
 
 //----------------------------------------------------------------------------------
-/* Agregar elementos */
-
-// Obtener el elemento del carrito y la lista de productos
-var carrito = document.getElementById("carrito");
-var listaProductos = carrito.getElementsByTagName("ul")[0];
+// /* Agregar elementos */
+// // Crear una lista vacía de productos en el carrito
+var productosEnCarrito = [];
 
 // Función para agregar un producto al carrito
 function agregarAlCarrito(nombreProducto) {
-  // Crear un nuevo elemento para el producto
-  var nuevoElemento = document.createElement("li");
-  nuevoElemento.textContent = nombreProducto;
-
-  // Agregar el nuevo elemento a la lista del carrito
-  listaProductos.appendChild(nuevoElemento);
+  // Agregar el producto a la lista de productos en el carrito
+  productosEnCarrito.push(nombreProducto);
 
   // Mostrar una notificación al usuario
-  alert("Se ha agregado " + nombreProducto + " al carrito.");
+  console.log("Se ha agregado " + nombreProducto + " al carrito.");
+}
+
+// Agregar algunos productos al carrito para probar
+agregarAlCarrito("Producto 1");
+agregarAlCarrito("Producto 2");
+agregarAlCarrito("Producto 3");
+
+// Mostrar la lista de productos en el carrito
+console.log("Productos en el carrito:");
+for (var i = 0; i < productosEnCarrito.length; i++) {
+  console.log("- " + productosEnCarrito[i]);
 }
 
 //-----------------------------------------------------------------------------------
 /* Eliminar elementos */
+// Crear una lista de tareas pendientes
+var tareasPendientes = ["Tarea 1", "Tarea 2", "Tarea 3"];
 
-// Codigo para Eliminar tareas pendientes ya realizadas
+// Función para eliminar una tarea pendiente
+function eliminarTarea(index) {
+  // Verificar si el índice es válido
+  if (index >= 0 && index < tareasPendientes.length) {
+    // Eliminar la tarea del array
+    tareasPendientes.splice(index, 1);
 
-// Obtener el elemento que se desea eliminar
-var elementoEliminar = document.getElementById("miTarea");
-
-// Verificar si el elemento existe antes de intentar eliminarlo
-if (elementoEliminar) {
-  // Obtener el padre del elemento
-  var padreElemento = elementoEliminar.parentNode;
-
-  // Eliminar el elemento del DOM
-  padreElemento.removeChild(elementoEliminar);
+    // Mostrar una notificación al usuario
+    console.log("Se ha eliminado la tarea número " + (index + 1) + ".");
+  } else {
+    // Mostrar una notificación al usuario si el índice no es válido
+    console.log("El índice especificado no es válido.");
+  }
 }
+
+// Eliminar la segunda tarea pendiente para probar
+eliminarTarea(1);
+
+// Mostrar la lista actualizada de tareas pendientes
+console.log("Tareas pendientes:");
+for (var i = 0; i < tareasPendientes.length; i++) {
+  console.log("- " + tareasPendientes[i]);
+}
+
 //----------------------------------------------------------------------------------------
 
 /* Eventos */
