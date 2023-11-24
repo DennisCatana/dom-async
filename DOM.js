@@ -1,5 +1,31 @@
 /* Fundamentos  */
+console.log("Acceder a los elementos HTML")
+console.log(document.body)
+console.log(document.head)
 
+console.log("Obtener las clases del elemento")
+console.log(document.body.style)
+console.log(document.body.className)
+
+console.log("Seleccionar elementos por clase")
+const parrafo = document.getElementsByClassName('p2')
+console.log(parrafo[0])
+
+console.log("Seleccionar elementos por id")
+const div = document.getElementById('div1')
+console.log(div)
+
+console.log("Seleccionar elementos con querySelector")
+const div1 = document.querySelector('#div1')
+console.log(div1)
+const p1 = document.querySelector('.p2')
+console.log(p1)
+const primerDiv = document.querySelector('div')
+console.log(primerDiv)
+
+console.log("Seleccionar elementos con querySelectorAll")
+const divs = document.querySelectorAll('div')
+console.log(divs)
 
 /* Acceder al contenido */
 
