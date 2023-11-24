@@ -9,12 +9,30 @@
 
 /* Modificar el estilo */
 
-
+//----------------------------------------------------------------------------------
 /* Agregar elementos */
+
+// Obtener el elemento del carrito y la lista de productos
+var carrito = document.getElementById("carrito");
+var listaProductos = carrito.getElementsByTagName("ul")[0];
+
+// Función para agregar un producto al carrito
+function agregarAlCarrito(nombreProducto) {
+  // Crear un nuevo elemento para el producto
+  var nuevoElemento = document.createElement("li");
+  nuevoElemento.textContent = nombreProducto;
+
+  // Agregar el nuevo elemento a la lista del carrito
+  listaProductos.appendChild(nuevoElemento);
+
+  // Mostrar una notificación al usuario
+  alert("Se ha agregado " + nombreProducto + " al carrito.");
+}
 
 //-----------------------------------------------------------------------------------
 /* Eliminar elementos */
-// Eliminar tareas pendientes ya realizadas
+
+// Codigo para Eliminar tareas pendientes ya realizadas
 
 // Obtener el elemento que se desea eliminar
 var elementoEliminar = document.getElementById("miTarea");
