@@ -4,6 +4,9 @@
 FUNDAMENTOS <br>
 ![image](https://github.com/DennisCatana/dom-async/assets/150082943/dcce4653-444b-439d-a892-d3c14de527f1)
 
+ACCEDER AL CONTENIDO <br>
+![image](https://github.com/DennisCatana/dom-async/assets/150082943/099529b3-1271-4da5-94de-e107e273c009)
+
 AGREGAR ELEMENTOS <br>
 ![image](https://github.com/DennisCatana/dom-async/assets/139184732/f7936de8-61d0-4078-89b0-ef4eddcaa6b2) <br> <br>
 
