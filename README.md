@@ -1,4 +1,11 @@
 # dom-async
+# Asincronismo <br>
+FUNDAMENTOS <br>
+https://github.com/DennisCatana/dom-async/assets/117743828/abacc027-1a25-47ea-9dfc-07c72051b808
+
+
+
+ACCEDER AL CONTENIDO <br>
 
 # DOM <br>
 FUNDAMENTOS <br>
