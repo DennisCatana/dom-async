@@ -1,7 +1,44 @@
 /* Fundamentos */
 
+console.log('1) calentar agua');
+console.log('2) Vertir cafe');
+console.log('3) vertir azucar');
+//siguiente instruccion despues del paso 3
+//pero por timeout esta orden no se ejecuta a
+setTimeout(function() {
+console.log('3.1) revisar la etiqueta del cafe');
+}, 6000//tiempo en segundos para ejecutar la instruccion
+);
+console.log('4)mezclar');
 
 /* Codigo sincronico vs asinncronico */
+//Codigo sincronico
+function espera(detalle) {
+//generar proceso para poder establer el timpo de respuesta
+  for (let index = 0; index < 10000000000; index++) 
+  {
+  }
+  return `${detalle}`
+}
+console.log("Recepcion de productos")
+console.log("Revisa a lista de los productos")
+console.log("Revisa el estado del producto")
+const tiempoDeEspera = espera("Revisa el nuevo catalogo")
+console.log(tiempoDeEspera)
+console.log("Firma del recibo");
+
+//Asincronico
+
+function espera(detalle) {
+  console.log(`${detalle}`)
+}
+
+console.log("Recepcion de productos");
+console.log("Revisa lista de los productos entregados");
+console.log("Revisa el estado de los productos");
+
+const data = setTimeout(()=>espera("Revisar nuevo catálogo"),5000)
+console.log("Firma de recibo");
 
 
 /* Promesas */
