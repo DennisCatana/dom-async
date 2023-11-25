@@ -15,3 +15,9 @@ ELIMINAR ELEMENTOS <br>
 
 
 # Async
+
+#PROMESAS
+![PROM](https://github.com/DennisCatana/dom-async/assets/117743120/f828ec5d-779e-4557-90c1-beb54d0052c4)
+
+#ASYNC AWAIT
+![ASYNC](https://github.com/DennisCatana/dom-async/assets/117743120/96e48218-a0e0-401e-a1ce-6bf28ac28064)
