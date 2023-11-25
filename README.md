@@ -2,13 +2,12 @@
 # Asincronismo <br>
 FUNDAMENTOS <br>
 <img width="394" alt="image" src="https://github.com/DennisCatana/dom-async/assets/117743828/929af66f-6789-457d-b3cd-9ed9b4fca5af"><br>
-Despues de esperar los 6 segundos para que se ejecute la orden
-<img width="229" alt="image" src="https://github.com/DennisCatana/dom-async/assets/117743828/98e5a6fe-9c2a-4c47-ae2a-4ffe9037682f">
+Despues de esperar los 6 segundos para que se ejecute la orden<br>
+<img width="229" alt="image" src="https://github.com/DennisCatana/dom-async/assets/117743828/98e5a6fe-9c2a-4c47-ae2a-4ffe9037682f"> <br>
+Asincrono vs Sincrolo <br>
+<img width="516" alt="image" src="https://github.com/DennisCatana/dom-async/assets/117743828/a658e740-ca56-457c-8aaf-e4b56b62e9dc"><br>
 
 
-
-
-ACCEDER AL CONTENIDO <br>
 
 # DOM <br>
 FUNDAMENTOS <br>
