@@ -3,14 +3,12 @@
 FUNDAMENTOS <br>
 <img width="394" alt="image" src="https://github.com/DennisCatana/dom-async/assets/117743828/929af66f-6789-457d-b3cd-9ed9b4fca5af"><br>
 Despues de esperar los 6 segundos para que se ejecute la orden<br>
-<img width="229" alt="image" src="https://github.com/DennisCatana/dom-async/assets/117743828/98e5a6fe-9c2a-4c47-ae2a-4ffe9037682f"> <br>
-
-
+<img width="229" alt="image" src="https://github.com/DennisCatana/dom-async/assets/117743828/98e5a6fe-9c2a-4c47-ae2a-4ffe9037682f"><br>
 Asincronico vs Sincronico <br>
 + Sincronico:
 No ejecuta la instruccion hasta que no se complete
 <img width="516" alt="image" src="https://github.com/DennisCatana/dom-async/assets/117743828/a658e740-ca56-457c-8aaf-e4b56b62e9dc"><br>
-<img width="255" alt="image" src="https://github.com/DennisCatana/dom-async/assets/117743828/c6fb9a27-daff-4a27-aeb9-29a1289b3bd2">
+<img width="255" alt="image" src="https://github.com/DennisCatana/dom-async/assets/117743828/c6fb9a27-daff-4a27-aeb9-29a1289b3bd2"><br>
 + Asincronico<br>
 Pasa al siguiente paso sin ejecutar el aterior
 <img width="435" alt="image" src="https://github.com/DennisCatana/dom-async/assets/117743828/db0a4f96-8093-4f69-93eb-c571b527f5f4"><br>
