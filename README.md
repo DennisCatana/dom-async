@@ -1,7 +1,10 @@
 # dom-async
 # Asincronismo <br>
 FUNDAMENTOS <br>
-https://github.com/DennisCatana/dom-async/assets/117743828/abacc027-1a25-47ea-9dfc-07c72051b808
+<img width="394" alt="image" src="https://github.com/DennisCatana/dom-async/assets/117743828/929af66f-6789-457d-b3cd-9ed9b4fca5af"><br>
+Despues de esperar los 6 segundos para que se ejecute la orden
+<img width="229" alt="image" src="https://github.com/DennisCatana/dom-async/assets/117743828/98e5a6fe-9c2a-4c47-ae2a-4ffe9037682f">
+
 
 
 
