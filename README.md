@@ -6,13 +6,13 @@ Despues de esperar los 6 segundos para que se ejecute la orden<br>
 <img width="229" alt="image" src="https://github.com/DennisCatana/dom-async/assets/117743828/98e5a6fe-9c2a-4c47-ae2a-4ffe9037682f"><br>
 Asincronico vs Sincronico <br>
 + Sincronico:
-No ejecuta la instruccion hasta que no se complete
+No ejecuta la instruccion hasta que no se complete<br>
 <img width="516" alt="image" src="https://github.com/DennisCatana/dom-async/assets/117743828/a658e740-ca56-457c-8aaf-e4b56b62e9dc"><br>
 <img width="255" alt="image" src="https://github.com/DennisCatana/dom-async/assets/117743828/c6fb9a27-daff-4a27-aeb9-29a1289b3bd2"><br>
 + Asincronico<br>
-Pasa al siguiente paso sin ejecutar el aterior
+Pasa al siguiente paso sin ejecutar el aterior<br>
 <img width="435" alt="image" src="https://github.com/DennisCatana/dom-async/assets/117743828/db0a4f96-8093-4f69-93eb-c571b527f5f4"><br>
-<img width="252" alt="image" src="https://github.com/DennisCatana/dom-async/assets/117743828/ad71a460-9344-49f1-ab97-15b083f3c7ec">
+<img width="252" alt="image" src="https://github.com/DennisCatana/dom-async/assets/117743828/ad71a460-9344-49f1-ab97-15b083f3c7ec"><br>
 
 
 
