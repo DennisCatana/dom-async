@@ -1,4 +1,5 @@
 /* Fundamentos  */
+/* Acceder al contenido */
 console.log("Acceder a los elementos HTML")
 console.log(document.body)
 console.log(document.head)
@@ -27,14 +28,16 @@ console.log("Seleccionar elementos con querySelectorAll")
 const divs = document.querySelectorAll('div')
 console.log(divs)
 
-/* Acceder al contenido */
-
-
 /* Modificar el contenido */
-
+console.log("Modificar el contenido de un elemento")
+const parrafo = document.getElementsByClassName('p2')
+parrafo[0].innerHTML = 'Nuevo contenido del párrafo'
 
 /* Modificar el estilo */
-
+console.log("Modificar el estilo de un elemento")
+const parrafo = document.getElementsByClassName('p2')
+parrafo[0].style.color = 'red'
+parrafo[0].style.fontSize = '20px'
 //----------------------------------------------------------------------------------
 // /* Agregar elementos */
 // // Crear una lista vacía de productos en el carrito
@@ -79,7 +82,6 @@ function eliminarTarea(index) {
     console.log("El índice especificado no es válido.");
   }
 }
-
 // Eliminar la segunda tarea pendiente para probar
 eliminarTarea(1);
 
@@ -88,8 +90,13 @@ console.log("Tareas pendientes:");
 for (var i = 0; i < tareasPendientes.length; i++) {
   console.log("- " + tareasPendientes[i]);
 }
-
 //----------------------------------------------------------------------------------------
-
 /* Eventos */
+console.log("Añadir un controlador de eventos a todos los elementos de una clase")
+const botones = document.getElementsByClassName('boton2')
 
+for (let i = 0; i < botones.length; i++) {
+    botones[i].addEventListener('click', function() {
+        alert('¡Botón presionado!')
+    })
+}
